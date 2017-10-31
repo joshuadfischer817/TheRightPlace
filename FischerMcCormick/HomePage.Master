@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.master.cs" Inherits="FischerMcCormick.HomePage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>The Right Place</title>
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width-devide-width, initial=scale=1" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <%--Styling options vvv--%>
+    <link href="RightPlace.css" rel="stylesheet" />
+    <style type="text/css">
+        .col-sm-3 {
+            width: 179px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <%--header/banner section vvv--%>
+        <asp:ContentPlaceHolder ID="consistentBanner" runat="server">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">Logo Here</div>
+                    <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9">The Right Place/Banner Here</div>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+        <%--Middle Section vvv--%>
+        <div class="row">
+            <div class="col-md-3">
+                <aside>
+                    <asp:ContentPlaceHolder ID="NavigationBarPlaceHolder" runat="server">
+                        <asp:Button class="navButton" ID="homeNav" runat="server" OnClick="homeNavBtn" Text="Home" />
+                        <br />
+                        <asp:Button class="navButton" ID="reservationsNav" runat="server" OnClick="reservationsNavBtn" Text="Room Reservations" />
+                        <br />
+                        <asp:Button class="navButton" ID="pricingNav" runat="server" OnClick="pricingNavBtn" Text="Rooms and Price" />
+                        <br />
+                        <asp:Button class="navButton" ID="eventsNav" runat="server" OnClick="eventNavBtn" Text="Upcoming Events" />
+                        <br />
+                        <asp:Button class="navButton" ID="staffNav" runat="server" OnClick="staffNavBtn" Text="Staff" />
+                        <br />
+                        <asp:Button class="navButton" ID="galleryNav" runat="server" OnClick="galleryNavBtn" Text="Gallery" />
+                    </asp:ContentPlaceHolder>
+                </aside>
+            </div>
+            <div class="col-md-9">
+                <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <%--footer section vvv--%>
+        <footer>
+            <div class="row">
+                <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">web signature</div>
+                <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9"></div>
+            </div>
+        </footer>
+    </form>
+
+</body>
+</html>

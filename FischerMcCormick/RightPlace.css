@@ -3,3 +3,8 @@
     margin-bottom: .5em;
     width: 165px;
 }
+
+.banner {
+    margin-bottom: 1em;
+    font: bold, garamond, 12px;
+}

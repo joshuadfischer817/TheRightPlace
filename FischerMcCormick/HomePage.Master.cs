@@ -13,7 +13,8 @@ namespace FischerMcCormick
        
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //Top left logo URL
+            TRPLogo.ImageUrl = "Images/TRPlogo.jpeg";
         }
         //Below are all the navigation buttons
         protected void homeNavBtn(object sender, EventArgs e)

@@ -28,8 +28,11 @@
         <asp:ContentPlaceHolder ID="consistentBanner" runat="server">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">Logo Here</div>
-                    <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9">The Right Place/Banner Here</div>
+                    <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">
+                        <asp:Image ID="TRPLogo" runat="server" width="150px" Height="100px"/>
+
+                    </div>
+                    <div class="banner col-xsm-9 col-sm-9 col-md-9 col-lg-9">The Right Place</div>
                 </div>
             </div>
         </asp:ContentPlaceHolder>
@@ -42,7 +45,7 @@
                         <br />
                         <asp:Button class="navButton" ID="reservationsNav" runat="server" OnClick="reservationsNavBtn" Text="Room Reservations" />
                         <br />
-                        <asp:Button class="navButton" ID="pricingNav" runat="server" OnClick="pricingNavBtn" Text="Rooms and Price" />
+                        <asp:Button class="navButton" ID="pricingNav" runat="server" OnClick="pricingNavBtn" Text="Rooms and Pricing" />
                         <br />
                         <asp:Button class="navButton" ID="eventsNav" runat="server" OnClick="eventNavBtn" Text="Upcoming Events" />
                         <br />
@@ -59,7 +62,7 @@
         <%--footer section vvv--%>
         <footer>
             <div class="row">
-                <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">web signature</div>
+                <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">Preston McCormick and Joshua Fischer</div>
                 <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9"></div>
             </div>
         </footer>

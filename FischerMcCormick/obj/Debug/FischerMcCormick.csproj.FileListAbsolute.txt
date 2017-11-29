@@ -64,3 +64,37 @@ C:\Users\Preston McCormick\Documents\Visual Studio 2015\Projects\FischerMcCormic
 C:\Users\Preston McCormick\Documents\Visual Studio 2015\Projects\FischerMcCormickProto\FischerMcCormick\obj\Debug\FischerMcCormick.csprojResolveAssemblyReference.cache
 C:\Users\Preston McCormick\Documents\Visual Studio 2015\Projects\FischerMcCormickProto\FischerMcCormick\obj\Debug\FischerMcCormick.dll
 C:\Users\Preston McCormick\Documents\Visual Studio 2015\Projects\FischerMcCormickProto\FischerMcCormick\obj\Debug\FischerMcCormick.pdb
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\ApplicationInsights.config
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\csc.exe
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\vbc.exe
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\VBCSCompiler.exe
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\FischerMcCormick.dll.config
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\FischerMcCormick.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\FischerMcCormick.pdb
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.Web.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.ApplicationInsights.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.Web.xml
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.ApplicationInsights.xml
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\obj\Debug\FischerMcCormick.csprojResolveAssemblyReference.cache
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\obj\Debug\FischerMcCormick.csproj.CoreCompileInputs.cache
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\obj\Debug\FischerMcCormick.dll
+C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\obj\Debug\FischerMcCormick.pdb

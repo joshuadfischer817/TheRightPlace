@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -94,11 +95,67 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Catering\1.jpg" />
+    <Content Include="Images\Catering\c4.jpg" />
+    <Content Include="Images\Catering\pexels-photo-265940.jpeg" />
+    <Content Include="Images\Catering\pexels-photo-305972.jpeg" />
+    <Content Include="Images\Catering\pexels-photo-348517.jpeg" />
+    <Content Include="Images\Logo\cropped-RP-LOGO-600px.png" />
+    <Content Include="Images\Events\1 %281%29.jpg" />
+    <Content Include="Images\Events\1 %285%29.jpg" />
+    <Content Include="Images\Events\1 %286%29.jpg" />
+    <Content Include="Images\Events\concert-cheering-people-guitar-597056.jpeg" />
+    <Content Include="Images\Events\Event-Page-03.png" />
+    <Content Include="Images\Events\lights-party-dancing-music.jpg" />
+    <Content Include="Images\Events\meeting-room-14194080.jpg" />
+    <Content Include="Images\Events\meeting-room-15481291.jpg" />
+    <Content Include="Images\Events\neonbrand-271272.jpg" />
+    <Content Include="Images\Events\people-eiffel-tower-lights-night.jpg" />
+    <Content Include="Images\Events\pexels-photo-196652.jpeg" />
+    <Content Include="Images\Events\pexels-photo-265940.jpeg" />
+    <Content Include="Images\Events\pexels-photo-305972.jpeg" />
+    <Content Include="Images\Events\pexels-photo-348517.jpeg" />
+    <Content Include="Images\Logo\rocky-patel-cigars-logo-2012-16.jpg" />
+    <Content Include="Images\Logo\RP-Graphics_34067_image.jpg" />
+    <Content Include="Images\Logo\RP-Logo-JPG+-+Copy+v2.jpg" />
+    <Content Include="Images\Logo\Rp_logo.png" />
+    <Content Include="Images\Logo\stock-vector-rp-logo-vector-graphic-branding-letter-element-white-background-413713114.jpg" />
+    <Content Include="Images\Rooms\1 %281%29.jpg" />
+    <Content Include="Images\Rooms\1 %282%29.jpg" />
+    <Content Include="Images\Rooms\1 %283%29.jpg" />
+    <Content Include="Images\Rooms\1 %284%29.jpg" />
+    <Content Include="Images\Rooms\1 %285%29.jpg" />
+    <Content Include="Images\Rooms\1 %286%29.jpg" />
+    <Content Include="Images\Rooms\1.jpg" />
+    <Content Include="Images\Rooms\3.jpg" />
+    <Content Include="Images\Rooms\800px_COLOURBOX3002353.jpg" />
+    <Content Include="Images\Rooms\Event-Page-03.png" />
+    <Content Include="Images\Rooms\meeting-room-14194080.jpg" />
+    <Content Include="Images\Rooms\meeting-room-15481291.jpg" />
+    <Content Include="Images\Rooms\meeting-room.jpg" />
+    <Content Include="Images\Rooms\pexels-photo-260689.jpeg" />
+    <Content Include="Images\Rooms\pexels-photo-416320 %281%29.jpeg" />
+    <Content Include="Images\Rooms\pexels-photo-416320.jpeg" />
+    <Content Include="Images\Rooms\preview16.jpg" />
+    <Content Include="Images\Staff\57a873c463c82d0db84d9e6400cb8472--professional-portrait-men-business-portrait-men.jpg" />
+    <Content Include="Images\Staff\6bca48e95cf04df1b8f5920e266e450d.jpg" />
+    <Content Include="Images\Staff\AAEAAQAAAAAAAAgjAAAAJDAyN2Y3ZmEwLTZkMjAtNDQwMy1hOGVmLTAxMTI3YTgyZjk5Mg.jpg" />
+    <Content Include="Images\Staff\christopher-campbell-28567.jpg" />
+    <Content Include="Images\Staff\greg_giuliani_a.jpg" />
+    <Content Include="Images\Staff\home_services_profPort.jpg" />
+    <Content Include="Images\Staff\michael-234665.jpg" />
+    <Content Include="Images\Staff\michael-dam-258165.jpg" />
+    <Content Include="Images\Staff\Professional-Portrait-Headshot-11-750x500.jpg" />
+    <Content Include="Images\Staff\Toronto-Business-Portrait-Luke-01-590x884.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Images\Catering\Thumbs.db" />
+    <Content Include="Images\Events\Thumbs.db" />
+    <Content Include="Images\Rooms\Thumbs.db" />
+    <Content Include="Images\Staff\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

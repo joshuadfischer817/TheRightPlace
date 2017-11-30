@@ -1,5 +1,60 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/HomePage.Master" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="FischerMcCormick.Gallery" %>
 
 <asp:Content ID="mainGallery" ContentPlaceHolderID="mainContentPlaceHolder" runat="server">
-    Gallery of rooms and other things.
+    Gallery of rooms and other things.<table id="GalleryTable" style="width: 100%; height: 504px;">
+        <tr>
+            <td class="auto-style2">
+                <img alt="" src="Images/Catering/1.jpg" /></td>
+            <td class="auto-style3">&nbsp;</td>
+            <td>
+                <img alt="" src="Images/Catering/c4.jpg" /><img alt="" src="Images/Catering/pexels-photo-265940.jpeg" /><img alt="" src="Images/Catering/pexels-photo-305972.jpeg" /></td>
+        </tr>
+        <tr>
+            <td class="auto-style2">
+                <img alt="" src="Images/Catering/pexels-photo-348517.jpeg" /></td>
+            <td class="auto-style3">&nbsp;</td>
+            <td>
+                <img alt="" src="Images/Events/1%20(1).jpg" /><img alt="" src="Images/Events/1%20(5).jpg" /><img alt="" src="Images/Events/1%20(6).jpg" /></td>
+        </tr>
+        <tr>
+            <td class="auto-style2">
+                <img alt="" src="Images/Events/concert-cheering-people-guitar-597056.jpeg" /></td>
+            <td class="auto-style3">&nbsp;</td>
+            <td>
+                <img alt="" src="Images/Events/lights-party-dancing-music.jpg" /><img alt="" src="Images/Events/meeting-room-14194080.jpg" /><img alt="" src="Images/Events/meeting-room-15481291.jpg" /></td>
+        </tr>
+        <tr>
+            <td class="auto-style2">
+                <img alt="" src="Images/Events/pexels-photo-196652.jpeg" /></td>
+            <td class="auto-style3">&nbsp;</td>
+            <td>
+                <img alt="" src="Images/Rooms/1%20(2).jpg" /><img alt="" src="Images/Rooms/1%20(3).jpg" /><img alt="" src="Images/Rooms/1%20(4).jpg" /></td>
+        </tr>
+         <tr>
+            <td class="auto-style2">
+                <img alt="" src="Images/Rooms/pexels-photo-416320.jpeg" /></td>
+            <td class="auto-style3">&nbsp;</td>
+            <td>
+                <img alt="" src="Images/Rooms/1.jpg" /><img alt="" src="Images/Rooms/3.jpg" /><img alt="" src="Images/Rooms/800px_COLOURBOX3002353.jpg" /></td>
+        </tr>
+         <tr>
+            <td class="auto-style2">
+                <img alt="" src="Images/Rooms/preview16.jpg" /></td>
+            <td class="auto-style3">&nbsp;</td>
+            <td>
+                <img alt="" src="Images/Rooms/pexels-photo-260689.jpeg" /><img alt="" src="Images/Events/people-eiffel-tower-lights-night.jpg" /><img alt="" src="Images/Events/Event-Page-03.png" /></td>
+        </tr>
+    </table>
+&nbsp;
 </asp:Content>
+<asp:Content ID="Content1" runat="server" contentplaceholderid="headPlaceHolder">
+    <style type="text/css">
+        .auto-style2 {
+            width: 212px;
+        }
+        .auto-style3 {
+            width: 6px;
+        }
+    </style>
+</asp:Content>
+

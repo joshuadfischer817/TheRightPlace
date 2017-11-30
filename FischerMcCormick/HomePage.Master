@@ -18,6 +18,7 @@
         .col-sm-3 {
             width: 179px;
         }
+        .active {}
     </style>
 
 </head>
@@ -28,8 +29,9 @@
         <asp:ContentPlaceHolder ID="consistentBanner" runat="server">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">Logo Here</div>
-                    <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9">The Right Place/Banner Here</div>
+                    <div class="banner col-xsm-9 col-sm-9 col-md-9 col-lg-9">
+                        <img alt="" src="Images/Logo/cropped-RP-LOGO-600px.png" id="LogoImage" itemtype="Images/Logo/cropped-RP-LOGO-600px.png" /><asp:Label ID="TheRightPlaceBanner" runat="server" Text="The Right Place" Width="1059px" Height="48px" BackColor="White" BorderColor="White" CssClass="active" Font-Bold="True" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="True" ForeColor="#FF6600"></asp:Label>
+                    </div>
                 </div>
             </div>
         </asp:ContentPlaceHolder>
@@ -42,7 +44,7 @@
                         <br />
                         <asp:Button class="navButton" ID="reservationsNav" runat="server" OnClick="reservationsNavBtn" Text="Room Reservations" />
                         <br />
-                        <asp:Button class="navButton" ID="pricingNav" runat="server" OnClick="pricingNavBtn" Text="Rooms and Price" />
+                        <asp:Button class="navButton" ID="pricingNav" runat="server" OnClick="pricingNavBtn" Text="Rooms and Pricing" />
                         <br />
                         <asp:Button class="navButton" ID="eventsNav" runat="server" OnClick="eventNavBtn" Text="Upcoming Events" />
                         <br />
@@ -59,7 +61,9 @@
         <%--footer section vvv--%>
         <footer>
             <div class="row">
-                <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">web signature</div>
+                <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9">
+                    Preston McCormick               Preston McCormick<a href="pmccor@okstate.edu"> pmccor@okstate.edu</a>
+                    Joshua Fischer<a href="mailto:joshua.d.fischer@okstate.edu"> joshua.d.fischer@okstate.edu</a></div>
                 <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9"></div>
             </div>
         </footer>

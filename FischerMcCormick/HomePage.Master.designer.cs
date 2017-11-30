@@ -40,15 +40,6 @@ namespace FischerMcCormick {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder consistentBanner;
         
         /// <summary>
-        /// TRPLogo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image TRPLogo;
-        
-        /// <summary>
         /// NavigationBarPlaceHolder control.
         /// </summary>
         /// <remarks>

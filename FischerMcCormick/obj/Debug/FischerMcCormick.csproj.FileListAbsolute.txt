@@ -95,6 +95,5 @@ C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.AI.Wi
 C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.ApplicationInsights.xml
 C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\obj\Debug\FischerMcCormick.csprojResolveAssemblyReference.cache
-C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\obj\Debug\FischerMcCormick.csproj.CoreCompileInputs.cache
 C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\obj\Debug\FischerMcCormick.dll
 C:\Users\fischjd\Source\Repos\TheRightPlace\FischerMcCormick\obj\Debug\FischerMcCormick.pdb

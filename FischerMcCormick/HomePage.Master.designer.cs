@@ -40,6 +40,15 @@ namespace FischerMcCormick {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder consistentBanner;
         
         /// <summary>
+        /// TheRightPlaceBanner control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label TheRightPlaceBanner;
+        
+        /// <summary>
         /// NavigationBarPlaceHolder control.
         /// </summary>
         /// <remarks>

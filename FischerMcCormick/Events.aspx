@@ -5,7 +5,7 @@
     <br />
     <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="Kate and Jeffs Wedding"></asp:Label>
 &nbsp;&nbsp;
-    <img alt="" src="Images/Events/1%20(1).jpg" /><br />
+    <img alt="" src="Images/Events/indoor-garden-wedding.jpg" /><br />
     <asp:Label ID="Label2" runat="server" Text="The wedding is on 12/12/2017"></asp:Label>
     <br />
     <br />

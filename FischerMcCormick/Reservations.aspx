@@ -16,7 +16,7 @@
         </div>
         <div class="col-md-4 jumbotron">
             Shopping Cart:
-            <asp:Label ID="lblShoppingCart" runat="server" Text="CartItem"></asp:Label>
+            <asp:Label ID="lblShoppingCart" runat="server"></asp:Label>
         </div>
     </div>
     Please contact the Catering Coordinator listed on the Staff Page for catering pricing and information.

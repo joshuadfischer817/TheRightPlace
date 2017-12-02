@@ -37,9 +37,7 @@ namespace FischerMcCormick
 
         protected void btnAddToCart_Click(object sender, EventArgs e)
         {
-            lblShoppingCart.Text = GetSelectedRoom();
-            
-
+            lblShoppingCart.Text = selectedRoom;
         }
     }
 }

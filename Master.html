@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.master.cs" Inherits="FischerMcCormick.HomePage" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>The Right Place</title>
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width-devide-width, initial=scale=1" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <%--Styling options--%>
+    <link href="RightPlace.css" rel="stylesheet" />
+    <style type="text/css">
+        .col-sm-3 {
+            width: 179px;
+        }
+
+        body {
+            background-color: burlywood;
+        }
+    </style>
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <%--header/banner section--%>
+        <asp:ContentPlaceHolder ID="consistentBanner" runat="server">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">
+                        <asp:Image ID="TRPLogo" runat="server" Width="150px" Height="100px" AlternateText="The Right Place" ImageUrl="~/Images/Logo/cropped-RP-LOGO-600px.png" />
+
+                    </div>
+                    <div class="jumbotron col-xsm-9 col-sm-9 col-md-9 col-lg-9">
+                        <asp:Label ID="TheRightPlaceBanner" runat="server" Text="The Right Place" CssClass="active" Font-Bold="True" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="True" ForeColor="#FF6600"></asp:Label>
+
+                    </div>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+        <%--Main Content and Nav Bar section--%>
+        <div class="row">
+            <div class="col-md-3">
+                <aside>
+                    <asp:ContentPlaceHolder ID="NavigationBarPlaceHolder" runat="server">
+                        <asp:Button class="navButton" ID="homeNav" runat="server" OnClick="homeNavBtn" Text="Home" />
+                        <br />
+                        <asp:Button class="navButton" ID="reservationsNav" runat="server" OnClick="reservationsNavBtn" Text="Room Reservations" />
+                        <br />
+                        <asp:Button class="navButton" ID="pricingNav" runat="server" OnClick="pricingNavBtn" Text="Rooms and Pricing" />
+                        <br />
+                        <asp:Button class="navButton" ID="eventsNav" runat="server" OnClick="eventNavBtn" Text="Upcoming Events" />
+                        <br />
+                        <asp:Button class="navButton" ID="staffNav" runat="server" OnClick="staffNavBtn" Text="Staff" />
+                        <br />
+                        <asp:Button class="navButton" ID="galleryNav" runat="server" OnClick="galleryNavBtn" Text="Gallery" />
+                    </asp:ContentPlaceHolder>
+                </aside>
+            </div>
+            <div class="col-md-9">
+                <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <%--footer section--%>
+        <footer>
+            <div class="row">
+                <div class="websig col-xsm-3 col-sm-3 col-md-3 col-lg-3">
+                    Preston McCormick<a href="pmccor@okstate.edu"> pmccor@okstate.edu</a>
+                    Joshua Fischer<a href="mailto:joshua.d.fischer@okstate.edu"> joshua.d.fischer@okstate.edu</a>
+                </div>
+                <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9"></div>
+            </div>
+        </footer>
+    </form>
+
+</body>
+</html>

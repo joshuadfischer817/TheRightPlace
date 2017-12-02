@@ -5,12 +5,12 @@
     <br />
     <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Large" Text="Kate and Jeffs Wedding"></asp:Label>
 &nbsp;&nbsp;
-    <br />
+    <img alt="" src="Images/Events/1%20(1).jpg" /><br />
     <asp:Label ID="Label2" runat="server" Text="The wedding is on 12/12/2017"></asp:Label>
     <br />
     <br />
     <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Large" Text="Little People, Big Ideas Art Show"></asp:Label>
-    <br />
+    <img alt="" src="Images/Events/Art_Show.jpg" /><br />
     <asp:Label ID="Label4" runat="server" Text="The Art Show will be Friday 12/7/2017 - Sunday 12/9/2017"></asp:Label>
 &nbsp;
 </asp:Content>

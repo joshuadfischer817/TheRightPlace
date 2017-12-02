@@ -13,7 +13,7 @@ namespace FischerMcCormick
        
         protected void Page_Load(object sender, EventArgs e)
         {
-            //Top left logo URL
+            
             
         }
         //Below are all the navigation buttons

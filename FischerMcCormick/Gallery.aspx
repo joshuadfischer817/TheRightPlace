@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/HomePage.Master" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="FischerMcCormick.Gallery" %>
 
 <asp:Content ID="mainGallery" ContentPlaceHolderID="mainContentPlaceHolder" runat="server">
-    Gallery of rooms and other things.<table id="GalleryTable" style="width: 100%; height: 504px;">
+    Gallery of rooms and events.<table id="GalleryTable" style="width: 100%; height: 504px; margin-right: 0px;">
         <tr>
             <td class="auto-style2">
                 <img alt="" src="Images/Catering/1.jpg" /></td>
@@ -57,4 +57,3 @@
         }
     </style>
 </asp:Content>
-

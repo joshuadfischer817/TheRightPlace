@@ -12,30 +12,37 @@
     <link href="Content/site.css" rel="stylesheet" />
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <%--Styling options vvv--%>
+    <%--Styling options--%>
     <link href="RightPlace.css" rel="stylesheet" />
     <style type="text/css">
         .col-sm-3 {
             width: 179px;
         }
-        .active {}
+        body{
+            background-color:burlywood;
+        }
     </style>
 
 </head>
 <body>
 
     <form id="form1" runat="server">
-        <%--header/banner section vvv--%>
+        <%--header/banner section--%>
         <asp:ContentPlaceHolder ID="consistentBanner" runat="server">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="banner col-xsm-9 col-sm-9 col-md-9 col-lg-9">
-                        <img alt="" src="Images/Logo/cropped-RP-LOGO-600px.png" id="LogoImage" itemtype="Images/Logo/cropped-RP-LOGO-600px.png" /><asp:Label ID="TheRightPlaceBanner" runat="server" Text="The Right Place" Width="1059px" Height="48px" BackColor="White" BorderColor="White" CssClass="active" Font-Bold="True" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="True" ForeColor="#FF6600"></asp:Label>
+                    <div class="col-xsm-3 col-sm-3 col-md-3 col-lg-3">
+                        <asp:Image ID="TRPLogo" runat="server" Width="150px" Height="100px" AlternateText="The Right Place" ImageUrl="~/Images/Logo/cropped-RP-LOGO-600px.png" />
+
+                    </div>
+                    <div class="jumbotron col-xsm-9 col-sm-9 col-md-9 col-lg-9">
+                        <asp:Label ID="TheRightPlaceBanner" runat="server" Text="The Right Place" CssClass="active" Font-Bold="True" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="True" ForeColor="#FF6600"></asp:Label>
+
                     </div>
                 </div>
             </div>
         </asp:ContentPlaceHolder>
-        <%--Middle Section vvv--%>
+        <%--Main Content and Nav Bar section--%>
         <div class="row">
             <div class="col-md-3">
                 <aside>
@@ -58,11 +65,11 @@
                 <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
             </div>
         </div>
-        <%--footer section vvv--%>
+        <%--footer section--%>
         <footer>
             <div class="row">
-                <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9">
-                    Preston McCormick               Preston McCormick<a href="pmccor@okstate.edu"> pmccor@okstate.edu</a>
+                <div class="websig col-xsm-3 col-sm-3 col-md-3 col-lg-3">
+                    Preston McCormick<a href="pmccor@okstate.edu"> pmccor@okstate.edu</a>
                     Joshua Fischer<a href="mailto:joshua.d.fischer@okstate.edu"> joshua.d.fischer@okstate.edu</a></div>
                 <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9"></div>
             </div>

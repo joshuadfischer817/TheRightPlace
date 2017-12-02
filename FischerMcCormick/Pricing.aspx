@@ -2,16 +2,23 @@
 
 <asp:Content ID="mainPricing" ContentPlaceHolderID="mainContentPlaceHolder" runat="server">
     <%--Connecting to database for room information--%>
-    <asp:SqlDataSource ID="sqlPricingAndInfo" runat="server" 
-        ConnectionString="<%$ ConnectionStrings:F17_kspmccorConnectionString %>" 
-        SelectCommand="SELECT [RoomType], [RoomPrice], [RoomDescription] FROM [Rooms]"></asp:SqlDataSource>
-    
+    <asp:SqlDataSource ID="sqlPricingAndInfo" runat="server"
+        ConnectionString="<%$ ConnectionStrings:F17_kspmccorConnectionString %>"
+        SelectCommand="SELECT [RoomType], [RoomPrice ($)], [RoomDescription] FROM [Rooms]"></asp:SqlDataSource>
+
     <%--listing information from database--%>
-    <asp:GridView ID="RoomAndPriceGrid" runat="server" DataSourceID="sqlPricingAndInfo" AutoGenerateColumns="False">
-        <Columns>
-            <asp:BoundField DataField="RoomType" HeaderText="RoomType" SortExpression="RoomType" />
-            <asp:BoundField DataField="RoomPrice" HeaderText="RoomPrice" SortExpression="RoomPrice" />
-            <asp:BoundField DataField="RoomDescription" HeaderText="RoomDescription" SortExpression="RoomDescription" />
-        </Columns>
-    </asp:GridView>
-    </asp:Content>
+    <div class="col-xsm-9 col-sm-9 col-md-9 col-lg-9">
+        <asp:GridView ID="RoomAndPriceGrid" runat="server" DataSourceID="sqlPricingAndInfo" AutoGenerateColumns="False">
+            <Columns>
+                <asp:BoundField DataField="RoomType" HeaderText="RoomType" SortExpression="RoomType" />
+                <asp:BoundField DataField="RoomPrice ($)" HeaderText="RoomPrice ($)" SortExpression="RoomPrice ($)" />
+                <asp:BoundField DataField="RoomDescription" HeaderText="RoomDescription" SortExpression="RoomDescription" />
+            </Columns>
+        </asp:GridView>
+    </div>
+    <label class="col-xsm-9 col-sm-9 col-md-9 col-lg-9">
+        Prices are displayed on a per day basis. No partial day rentals are available. A discount of 15% is available for multi-day or multi-room reservations. 
+        Please contact our Coordinators listed on the Staff page for special pricing options available to non-profit organizations.
+        Free Parking is available for all guests.
+    </label>
+</asp:Content>

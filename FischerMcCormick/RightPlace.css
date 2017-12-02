@@ -4,7 +4,22 @@
     width: 165px;
 }
 
-.banner {
-    margin-bottom: 1em;
-    font: bold, garamond, 12px;
+.jumbotron {
+    margin-bottom: 5em;
+}
+
+.btn-primary {
+    margin-top: 2em;
+}
+
+.banner{
+    font:xx-large;
+    color:orange;
+}
+.review{
+    font:large;
+    margin-bottom:2em;
+}
+.websig{
+    margin-top:5em;
 }

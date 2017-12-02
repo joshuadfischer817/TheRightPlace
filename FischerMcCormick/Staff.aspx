@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/HomePage.Master" AutoEventWireup="true" CodeBehind="Staff.aspx.cs" Inherits="FischerMcCormick.Staff" %>
 
 <asp:Content ID="mainStaff" ContentPlaceHolderID="mainContentPlaceHolder" runat="server">
-    <asp:Image ID="GaryRogue" runat="server" ImageUrl="~/Images/Staff/6bca48e95cf04df1b8f5920e266e450d.jpg" />
+    <asp:Image ID="GaryRogue" runat="server" ImageUrl="~/Images/Staff/6bca48e95cf04df1b8f5920e266e450d.jpg" Height="208px" Width="294px" />
     <br />
     Gary Rogue<br />
     Meeting Coordinator<br />
@@ -11,7 +11,7 @@
     <p>
     <br />
 
-    <asp:Image ID="MikaMyers" runat="server" ImageUrl="~/Images/Staff/michael-dam-258165.jpg" />
+    <asp:Image ID="MikaMyers" runat="server" ImageUrl="~/Images/Staff/michael-dam-258165.jpg" Height="256px" Width="254px" />
     </p>
     Mika Myers<br />
     Small Event Coordinator<br />
@@ -21,7 +21,7 @@
     <p>
     <br /> 
 
-    <asp:Image ID="PaulSikes" runat="server" ImageUrl="~/Images/Staff/57a873c463c82d0db84d9e6400cb8472--professional-portrait-men-business-portrait-men.jpg" />
+    <asp:Image ID="PaulSikes" runat="server" ImageUrl="~/Images/Staff/57a873c463c82d0db84d9e6400cb8472--professional-portrait-men-business-portrait-men.jpg" Height="264px" Width="215px" />
     <br />
     </p>&nbsp;Paul Sikes<br />
     Medium/Large Event Coordinator<br />
@@ -31,7 +31,7 @@
     <p>
     <br />
 
-    <asp:Image ID="FeliciaStokes" runat="server" ImageUrl="~/Images/Staff/greg_giuliani_a.jpg" />
+    <asp:Image ID="FeliciaStokes" runat="server" ImageUrl="~/Images/Staff/greg_giuliani_a.jpg" Height="168px" Width="233px" />
     <br />
     </p>&nbsp;Felicia Stokes<br />
     Wedding Coordinator<br />
@@ -41,7 +41,7 @@
     <p>
     <br /> 
 
-    <asp:Image ID="CadeWilson" runat="server" ImageUrl="~/Images/Staff/home_services_profPort.jpg" />
+    <asp:Image ID="CadeWilson" runat="server" ImageUrl="~/Images/Staff/home_services_profPort.jpg" Height="171px" Width="222px" />
     <br />
     </p>&nbsp;Cade Wilson<br />
     Catering Coordinator<br />

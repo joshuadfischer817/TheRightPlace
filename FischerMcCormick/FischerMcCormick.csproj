@@ -100,7 +100,6 @@
     <Content Include="Images\Catering\pexels-photo-265940.jpeg" />
     <Content Include="Images\Catering\pexels-photo-305972.jpeg" />
     <Content Include="Images\Catering\pexels-photo-348517.jpeg" />
-    <Content Include="Images\Logo\cropped-RP-LOGO-600px.png" />
     <Content Include="Images\Events\1 %281%29.jpg" />
     <Content Include="Images\Events\1 %285%29.jpg" />
     <Content Include="Images\Events\1 %286%29.jpg" />
@@ -115,6 +114,7 @@
     <Content Include="Images\Events\pexels-photo-265940.jpeg" />
     <Content Include="Images\Events\pexels-photo-305972.jpeg" />
     <Content Include="Images\Events\pexels-photo-348517.jpeg" />
+    <Content Include="Images\Logo\cropped-RP-LOGO-600px.png" />
     <Content Include="Images\Logo\rocky-patel-cigars-logo-2012-16.jpg" />
     <Content Include="Images\Logo\RP-Graphics_34067_image.jpg" />
     <Content Include="Images\Logo\RP-Logo-JPG+-+Copy+v2.jpg" />
